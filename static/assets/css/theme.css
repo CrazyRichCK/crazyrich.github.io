@@ -1,0 +1,136 @@
+/*!
+Template :	ICOCrypto @by Softnio
+Theme	 :  Default
+Version   :  1.9.3
+Updated   :  05/05/2021 
+*/
+/*! WRITE YOUR CUSTOM STYLE **/
+
+@media (max-width: 1023px) {                  
+   /* .social-links-header {
+      display: none;
+   } */
+
+   .small-hide {
+      display: none;
+   }
+
+   .available {
+     text-align:center; 
+   }
+
+   .large-image {
+    display: none !important;
+   }
+
+   .small-image {
+    display: block !important;
+  }
+
+  .social-links-header {
+    display:inline-block !important;
+  }
+}
+
+@media (min-width:1023px) {
+  
+  .token-countdown {
+     margin-left:-25px;
+  }
+
+  .available {
+     text-align:left; 
+   }
+
+  .small-image {
+    display: none !important; 
+  }
+
+  .large-image {
+    visibility: block !important;
+  }
+  
+}
+
+
+datalist {
+  display: flex;
+  justify-content: space-between;
+  color:#B3C0B0;
+  font-weight: 1000;
+  width: 100%;
+}
+
+input {
+  width: 100%;
+}
+
+.bg-theme-alt {
+  background-color: #1F262E!important;
+}
+
+.title-sm {
+  color: #89ACA0 !important;
+}
+
+.progress-point {
+ color: #FBEAE3 !important; 
+}
+
+.title-md {
+   color:#89ACA0 !important;
+}
+
+input[type="range"]::-moz-range-progress {
+  background-color:  #B3C0B0; 
+}
+input[type="range"]::-moz-range-track {  
+  background-color:  #B3C0B0;
+}
+/* IE*/
+input[type="range"]::-ms-fill-lower {
+  background-color:  #B3C0B0 
+}
+input[type="range"]::-ms-fill-upper {  
+  background-color:  #B3C0B0;
+}
+
+.progress-bar {
+  background:#9e8e8e !important; 
+}
+
+.progress-percent {
+  background: #D3AB8B !important;
+}
+
+.a {
+  background: #eb8b4d !important;
+}
+
+.logo-link, .menu-link:hover {
+  color: #eb8b4d !important;
+}
+
+.table-head {
+  color: #89ACA0 !important;
+}
+
+.a:hover, .btn:hover {
+  color: #eb8b4d !important;
+  background-color: #FBEAE3 !important;
+  border-color: #FBEAE3 !important;
+}
+
+.btn-primary, .btn-secondary {
+  background-color: #eb8b4d !important;
+  border-color: #eb8b4d !important;
+}
+
+.menu-item > a.active {
+  color:#D3AB8B !important;
+}
+
+
+.cpn-text, .lead-s3, .tc-light h1, .tc-light h2, .tc-light h3, .tc-light h4, .tc-light h5, .tc-light h6, .tc-light .h1, .tc-light .h2, .tc-light .h3, .tc-light .h4, .tc-light .h5, .tc-light .h6 {
+color: #89ACA0 ;
+}
